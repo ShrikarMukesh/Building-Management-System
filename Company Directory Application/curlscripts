@@ -1,0 +1,10 @@
+curl -X POST \
+  http://localhost:8080/buildings \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "name": "Example Building",
+    "address": "123 Main St",
+    "outOfOrder": false
+  }'
+
+-----------------------------------------------------
